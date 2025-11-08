@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Club</title>
+
+  <!-- 🔗 Link ke Bulma CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://bulma.io">
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="#home">
+        Home
+      </a>
+
+      <a class="navbar-item" href="#about">
+        About
+      </a>
+
+      <a class="navbar-item"  href="#division">
+          Divisions
+      </a>
+
+      <a class="navbar-item"  href="#bagian">
+          Contact
+      </a>
+
+    </div>
+
+  </div>
+</nav>
+
+  <!-- 🧠 Hero Section -->
+    <section class="hero is-fullheight" id="home">
+      <div class="hero-body has-text-centered" id="hero-slideshow">
+        <div>
+          <p class="title has-text-white">Coding Club</p>
+          <p class="subtitle has-text-white">Web Design • Game Development • Python</p>
+          <a href="#about" class="button is-light is-medium mt-4">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+  <!-- 💻 About Section -->
+  <section class="section is-large" id="about">
+    <div class="container">
+      <h1 class="title has-text-centered">About</h1>
+
+      <div class="columns is-vcentered">
+        <!-- Kolom Foto -->
+        <div class="column is-one-third has-text-centered">
+          <figure class="image is-1by1">
+            <img src="foto/webdes.png" alt="Coding Club Photo" style="border-radius: 12px;">
+          </figure>
+        </div>
+
+        <!-- Kolom Teks -->
+        <div class="column">
+          <h2 class="subtitle">
+            Coding Club adalah komunitas bagi siswa yang ingin belajar dan mengembangkan kemampuan di bidang teknologi.
+            Kami fokus pada <strong>Web Design</strong>, <strong>Game Development</strong>, dan <strong>Python Programming</strong>.
+            Dengan bimbingan yang menyenangkan, kami membantu siswa belajar coding dari dasar hingga mahir.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⚙️ Divisions Section -->
+  <section class="section" id="divis">
+    <div class="container">
+      <h1 class="title has-text-white has-text-centered">Our Divisions</h1>
+      <p class="subtitle has-text-centered has-text-grey-light">Kami terbagi menjadi tiga divisi utama yang fokus pada keahlian berbeda.</p>
+
+      <!-- Divisi 1 -->
+      <div class="columns is-vcentered division-section">
+        <div class="column is-one-third">
+          <figure class="image">
+            <img class="division-image" src="foto/webdes.png" alt="Web Design">
+          </figure>
+        </div>
+        <div class="column">
+          <h2 class="title has-text-white">Web Design</h2>
+          <p class="has-text-white">
+            Divisi ini berfokus pada pembuatan tampilan website yang menarik dan responsif.
+            Anggota divisi ini mempelajari HTML, CSS, JavaScript, serta framework seperti Bulma dan Bootstrap.
+          </p>
+        </div>
+      </div>
+
+      <!-- Divisi 2 -->
+      <div class="columns is-vcentered division-section">
+        <div class="column is-one-third">
+          <figure class="image">
+            <img class="division-image" src="foto/gamedev.png" alt="Game Development">
+          </figure>
+        </div>
+        <div class="column">
+          <h2 class="title has-text-white">Game Development</h2>
+          <p class="has-text-white">
+            Divisi ini mengembangkan berbagai game 2D dan 3D dengan menggunakan tools seperti Unity, Godot, atau Python.
+            Fokus utamanya adalah kreativitas dan logika pemrograman.
+          </p>
+        </div>
+      </div>
+
+      <!-- Divisi 3 -->
+      <div class="columns is-vcentered division-section">
+        <div class="column is-one-third">
+          <figure class="image">
+            <img class="division-image" src="foto/python.png" alt="Python Programming">
+          </figure>
+        </div>
+        <div class="column">
+          <h2 class="title has-text-white">Python Programming</h2>
+          <p class="has-text-white">
+            Divisi Python berfokus pada pembelajaran logika pemrograman dan pengembangan aplikasi sederhana.
+            Selain itu, anggota juga belajar otomasi dan analisis data dengan Python.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📞 Footer -->
+  <footer class="footer" id="bagian">
+    <div class="content has-text-centered">      
+      <p>
+        Follow Us<br>
+        <a href="https://www.instagram.com/codingclub.rex/" target="_blank">Instagram</a><br>
+        <a>TikTok</a><br>
+      </p>
+
+      <p>
+        <strong>Coding Club</strong> by Students for Students. © 2025
+      </p>
+
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

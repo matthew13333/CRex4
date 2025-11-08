@@ -1,0 +1,49 @@
+
+#hero-slideshow {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out;
+  position: relative;
+}
+
+
+#hero-slideshow::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+#hero-slideshow > div {
+  position: relative;
+  z-index: 1;
+}
+
+
+#color-sections {
+  color: black;
+}
+
+.division-section {
+  margin-bottom: 3rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: 0.3s;
+}
+
+.division-section:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.division-image {
+  border-radius: 12px;
+  max-height: 200px;
+  object-fit: cover;
+}
+#divis{
+  background-color: maroon;
+}
+
